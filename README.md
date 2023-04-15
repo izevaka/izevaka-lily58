@@ -1,6 +1,11 @@
-# Igor's Lily58 layout
+# My QMK keymaps
 
-This is intended to be used a submodule in my fork of [qmk_firmware](https://github.com/izevaka/qmk_firmware).
+This is the directory of my QMK keymaps. They are committed to my fork of QMK firmare which you can find [here](https://github.com/izevaka/qmk_firmware)
+
+## Keymap links
+* [Preonic](https://github.com/izevaka/qmk_firmware/tree/master/keyboards/preonic/keymaps/izevaka)
+* [Lily58](https://github.com/izevaka/qmk_firmware/tree/master/keyboards/lily58/keymaps/izevaka)
+* [StackOverflow Key](https://github.com/izevaka/qmk_firmware/tree/master/keyboards/massdrop/thekey/keymaps/izevaka)
 
 ## Instructions for future Igor
 1. Install `qmk` - e.g. using Homebrew
@@ -21,5 +26,7 @@ $> qmk config user.qmk_home=/path/to/qmk_igor
 4. Compile QMK:
 ```
 qmk compile -kb lily58/rev1 -km izevaka
+qmk compile -kb preonic/rev3 -km izevaka
+qmk compile -kb massdrop/thekey -km izevaka-thekey
 ``` 
 5. Flash using QMK toolbox
