@@ -27,6 +27,6 @@ $> qmk config user.qmk_home=/path/to/qmk_igor
 ```
 qmk compile -kb lily58/rev1 -km izevaka
 qmk compile -kb preonic/rev3 -km izevaka
-qmk compile -kb massdrop/thekey -km izevaka-thekey
+qmk compile -kb massdrop/thekey -km izevaka
 ``` 
 5. Flash using QMK toolbox
