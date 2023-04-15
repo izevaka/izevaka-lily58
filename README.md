@@ -15,6 +15,8 @@ qmk clone izevaka/qmk_firmware ~/src/qmk_igor
 ```
 $> qmk config
 user.qmk_home=/path/to/qmk_igor
+# Update if needed:
+$> qmk config user.qmk_home=/path/to/qmk_igor
 ```
 4. Compile QMK:
 ```
