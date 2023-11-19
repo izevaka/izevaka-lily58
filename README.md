@@ -10,11 +10,11 @@ This is the directory of my QMK keymaps. They are committed to my fork of QMK fi
 ## Instructions for future Igor
 1. Install `qmk` - e.g. using Homebrew
 ```
-brew install qmk
+brew install qmk-toolbox
 ```
 2. Configure qmk to point to the fork:
 ```
-qmk clone izevaka/qmk_firmware ~/src/qmk_igor
+qmk clone git@github.com:izevaka/qmk_firmware.git ~/src/qmk_igor
 ```
 3. Double check that your directory is set up correctly in qmk:
 ```
